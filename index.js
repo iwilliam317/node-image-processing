@@ -1,5 +1,6 @@
 const sharp = require('sharp');
 
+// RESIZE
 sharp('./assets/images/node_logo.jpeg')
   .resize(300)
   .toFile('./assets/images/node_logo_resized.jpeg', (err, info) => {
